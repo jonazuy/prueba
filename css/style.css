@@ -1,0 +1,215 @@
+/* menu Principal */
+.menu {
+  background-color: #dadada;
+  margin: 10px 0; }
+  .menu li {
+    list-style: none;
+    justify-content: center;
+    font-family: 'Inter', sans-serif; }
+    .menu li a {
+      text-decoration: none;
+      padding: 6px; }
+
+.menu a:hover {
+  color: white; }
+
+nav, ul {
+  display: flex;
+  justify-content: center; }
+
+body {
+  background-color: #cccccc;
+  line-height: 1.5; }
+
+.logo {
+  display: flex;
+  justify-content: center; }
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  height: auto;
+  width: auto; }
+
+ul {
+  padding: 0; }
+
+footer {
+  background-color: #dadada; }
+
+#menuFooter {
+  display: grid; }
+
+#menuFooter a:hover, li {
+  color: white; }
+
+.gridFooter {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 15px 0; }
+
+#menuFooter {
+  display: grid;
+  padding-top: 10px;
+  grid-column: 2;
+  grid-row: 1; }
+
+.redes p {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif; }
+
+.redes {
+  text-align: center; }
+
+.redes, .fb, .ig {
+  display: inline;
+  justify-self: center;
+  padding-bottom: 5px; }
+
+.copy a {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif; }
+
+.copy a:hover {
+  color: white; }
+
+.tituloProductos {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color: #3b3b3b; }
+
+/* grid */
+.grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; }
+
+@media (min-width: 767px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr); } }
+
+/* Productos */
+.producto {
+  background-color: #dadada;
+  padding: 10px;
+  align-items: center; }
+
+.producto__imagen {
+  width: 100%; }
+
+.producto__informacion {
+  color: #757575; }
+
+.producto__nombre {
+  font-size: 20px; }
+
+.producto__precio {
+  font-size: 25px;
+  color: white; }
+
+.producto__nombre,
+.producto__precio {
+  margin: 20px 0;
+  text-align: center;
+  line-height: 1.2; }
+
+/* Formulario */
+.contact {
+  background-color: #a1a1a1;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 400px; }
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: white; }
+
+.controles {
+  padding: auto;
+  text-align: center;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  background-color: #dadada;
+  color: white; }
+
+.tituloFormulario {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif; }
+
+.opt {
+  padding: 0 60px;
+  color: #797979;
+  border-radius: 6px; }
+
+.bot {
+  color: #8a8a8a;
+  border: 2px solid #ffffff;
+  border-radius: 6px; }
+
+.bot:hover {
+  color: #ee5050; }
+
+.rwsp {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px; }
+
+.producto__imagen:hover {
+  transform: scale(1.1);
+  border: solid 1px #1a1a1a; }
+
+/* Seccion Nosotros */
+.nosotros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center; }
+  .nosotros .titulo__nosotros {
+    grid-column: 1/3;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    text-align: center; }
+  .nosotros .imagen__nosotros {
+    grid-row: 2;
+    justify-items: center;
+    width: 100%; }
+  .nosotros .texto__nosotros {
+    grid-row: 2;
+    padding: 0 auto;
+    font-family: 'Inter', sans-serif; }
+
+/* menu Secundario */
+#menuFooter {
+  background-color: #dadada;
+  margin: 10px 0; }
+  #menuFooter li {
+    list-style: none;
+    justify-content: center;
+    font-family: 'Inter', sans-serif; }
+    #menuFooter li a {
+      text-decoration: none;
+      padding: 6px; }
+
+.producto__informacion {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none; }
+  .producto__informacion p {
+    text-decoration: none; }
+  .producto__informacion .producto__precio {
+    color: #da1313; }
+
+/* elimina acciones de useragentStylsheet */
+a:-webkit-any-link {
+  text-decoration: none; }
+
+.producto__informacion:hover {
+  color: white; }
+
+.copy {
+  padding-top: 20px; }
